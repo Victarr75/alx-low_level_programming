@@ -7,6 +7,7 @@
 int main(void)
 {
 	int digit;
+
 	for (digit = 0; digit < 16; digit++)
 	{
 		if (digit < 10)
