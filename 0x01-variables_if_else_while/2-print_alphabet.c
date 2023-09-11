@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - entry point
- * description: "print alphabets"
- * return: always (0)
+ * Description: "print alphabets"
+ * Return: Always 0
  */
-int main()
+int main(void)
 {
 	char ch;
 
-	for(ch = 'a' ; ch <= 'z' ; ch++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 		putchar(ch);
 	}
