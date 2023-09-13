@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 4-isalpha.c - "Checks for alphabets"
+ * _isalpha - "Checks for alphabets"
  *
  * @c: ASCII code of the variable
  *
