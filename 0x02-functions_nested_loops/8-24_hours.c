@@ -7,7 +7,7 @@
 void jack_bauer(void)
 {
 	int w, x, y, z;
-	
+
 	for (w = 0 ; w <= 2 ; w++)
 	{
 		for (x = 0 ; x <= 9 ; x++)
@@ -16,7 +16,7 @@ void jack_bauer(void)
 		{
 			for (y = 0 ; y <= 5 ; y++)
 			{
-				for (z = 0 ; z<= 9 ; z++)
+				for (z = 0 ; z <= 9 ; z++)
 				{
 					_putchar(w + '0');
 					_putchar(x + '0');
