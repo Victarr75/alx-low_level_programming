@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _sign - "Prints '+' or '-' or '0' and returns 1 or -1 or 0 for positive, negative or zero values respectively"
  *
