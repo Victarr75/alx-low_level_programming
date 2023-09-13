@@ -20,5 +20,5 @@ int print_last_digit(int b)
 	{
 		_putchar(c * -1);
 		return  (c * -1);
+	}
 }
-
