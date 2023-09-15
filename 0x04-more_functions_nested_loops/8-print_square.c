@@ -3,6 +3,7 @@
 /**
  * print_square - prints a square followed by a new line
  * @size: size of the square
+ * Return: Always 0
  */
 
 void print_square(int size)
@@ -21,7 +22,7 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
 }
