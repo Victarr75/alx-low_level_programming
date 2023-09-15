@@ -4,12 +4,12 @@
 /**
  * main - entry point
  *
- * Description: prints numbers 1-100 w/ Fizz for multiples of 3, Buzz for multiples of 5, and FizzBuzz for multiples of both
+ * Description: prints numbers 1-100
  *
  * Return: Always 0
  */
 
-iint main(void)
+int main(void)
 {
 	int i;
 
