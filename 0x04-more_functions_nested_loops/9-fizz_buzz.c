@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-int main(void)
+iint main(void)
 {
 	int i;
 
