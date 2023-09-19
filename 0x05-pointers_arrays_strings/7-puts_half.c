@@ -2,6 +2,7 @@
 
 /**
  * puts_haif - prints the second haif of a string
+ * Description: prints the second haif of a string
  * @str: the string to be printed
  *
  */

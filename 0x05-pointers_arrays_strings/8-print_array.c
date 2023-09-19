@@ -2,9 +2,7 @@
 
 /**
  * print_array - prints n elements of an array
- * 
  * @a: input array
- *
  * @n: length of the array
  */
 void print_array(int *a, int n)
