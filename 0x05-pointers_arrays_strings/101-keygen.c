@@ -28,9 +28,9 @@ int main(void)
 		if ((sum - 2772) % 2 != 0)
 		diff_haif1++;
 
-		for (index = 0; passward[index]; index++)
+		for (index = 0; password[index]; index++)
 		{
-			(if password[index] >= (33 + diff_haif1))
+			if (password[index] >= (33 + diff_haif1))
 			{
 				password[index] -= diff_haif1;
 				break;
