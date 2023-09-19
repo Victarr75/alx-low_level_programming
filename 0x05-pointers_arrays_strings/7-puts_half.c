@@ -16,13 +16,13 @@ void puts_half(char *str)
 
 	haif_string = full_string / 2;
 
-	if (full_string % 2 == )
+	if (full_string % 2 == 0)
 		haif_string++;
 
 	while (haif_string < full_string)
 	{
 		_putchar(str[haif_string]);
-		haif_string++
+		haif_string++;
 	}
 	_putchar('\n');
 }

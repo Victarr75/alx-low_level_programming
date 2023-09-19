@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
+ * rev_string - reverses a string.
  *
+ * @s: string argument reference
  */
 
 void rev_string(char *s)
@@ -9,7 +11,8 @@ void rev_string(char *s)
 	int length, z, haif;
 	char temp;
 
-	for (length = 0; s[length] != '\0'; length++);
+	for (length = 0; s[length] != '\0';
+			length++);
 	z = 0;
 	haif = length / 2;
 

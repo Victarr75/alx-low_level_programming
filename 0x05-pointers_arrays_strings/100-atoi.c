@@ -17,7 +17,7 @@ int _atoi(char *s)
 
 	while (s[c])
 	{
-		if (s[c]) == 45;
+		if (s[c] == 45)
 	{
 		min *= -1;	
 	}
@@ -25,7 +25,7 @@ int _atoi(char *s)
 	{
 	isi = 1;
 	ni = (ni * 10) + (s[c] - '0');
-	c++
+	c++;
 	}
 	if (isi == 1)
 	{
