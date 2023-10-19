@@ -8,12 +8,12 @@
 
 void free_list(list_t *head)
 {
-	list_t *current;
+	list_t *carr;
 
-	while ((current = head) != NULL)
+	while ((carr = head) != NULL)
 	{
 		head = head->next;
-		free(current->str);
-		free(current);
+		free(carr->str);
+		free(carr);
 	}
 }
