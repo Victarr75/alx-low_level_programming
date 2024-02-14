@@ -4,7 +4,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-ssize_t read_textfile(const char *filename, size_t letters) {
+/**
+ * read_textfile - Read text file and print to STDOUT.
+ * @filename: Name of the file to read.
+ * @letters: Number of letters to read and print.
+ * Return: Number of bytes read and printed, or 0 on failure.
+ */
+ssize_t read_textfile(const char *filename, size_t letters)
+{
     char *buffer;
     ssize_t file_descriptor, bytes_read, bytes_written;
 
@@ -16,13 +23,15 @@ ssize_t read_textfile(const char *filename, size_t letters) {
         return (0);
 
     buffer = malloc(sizeof(char) * letters);
-    if (buffer == NULL) {
+    if (buffer == NULL)
+    {
         close(file_descriptor);
         return (0);
     }
 
     bytes_read = read(file_descriptor, buffer, letters);
-    if (bytes_read == -1) {
+    if (bytes_read == -1)
+    {
         perror("read");
         close(file_descriptor);
         free(buffer);
@@ -30,7 +39,8 @@ ssize_t read_textfile(const char *filename, size_t letters) {
     }
 
     bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
-    if (bytes_written == -1) {
+    if (bytes_written == -1)
+    {
         perror("write");
         close(file_descriptor);
         free(buffer);
