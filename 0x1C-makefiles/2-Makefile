@@ -1,0 +1,21 @@
+# Task: 2. Makefile
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = $(SRC:.c=)
+
+all: link
+
+# make object files
+%.o: %.c
+	@echo "Compiling $< to $@"
+	${CC} -c $< -o $@
+
+# link object files
+link: $(OBJ)
+	@echo "linking ..."
+	${CC} $(OBJ) -o school
+
+clean:
+	rm *.o
